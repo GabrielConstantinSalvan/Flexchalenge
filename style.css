@@ -54,9 +54,9 @@ body{
 }
 
 .buttonNav:hover {
-    background-color: deeppink;
     display: flex;
     justify-content: center;
+    background-color: deeppink;
 }
 
 .buttonNavHome{
@@ -68,11 +68,6 @@ body{
     color: white;
     border-radius: 5px;
 }
-
-.buttonNavHome:hover{
-    background-color: rgba(255, 20, 145, 0.568);
-}
-
 .titleImg{
     margin-top: 11%;
     display: flex;
@@ -100,47 +95,38 @@ body{
     font-size: 20.6px;
 
 }
-.buttonImg{
-    text-decoration: none;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-self: center;
-    margin-top: 1%;
+ .btns{
     background-color: deeppink;
-    height: 35px;
-    width: 120px;
-    margin-left: 45%;
-    border-radius: 15px;
-    padding-top: 7px;
+    text-decoration: none;
     color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+ }
 
-}
+ .btnsContainer{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
 
-.buttonImg:hover{
-    background-color: rgba(255, 20, 145, 0.568);
+.buttonImg:hover, .buttonNavHome:hover{
+    background-color: rgb(209, 33, 127);
 }
 
 .Profile{
     display: flex;
+    flex-direction: column;
     background-color: #333;
 }
 
-.textProfile{
-    display: flex;
-    justify-content: left;
+.textProfile, .teamDesc{
+    flex-wrap: wrap;
+    width: 50%;
 }
 
-.imgUser1{
-    width: 10px;
-    height: 10px;
-}
-
-.imgUser2{
-    width: 10px;
-    height: 10px;
-}
-.imgUser3{
-    width: 10px;
-    height: 10px;
+.teamImgs{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
