@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif ;
+    color: white;
 }
 
 body{
@@ -64,8 +65,6 @@ body{
     justify-content: center;
     background-color: deeppink;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
     border-radius: 5px;
 }
 .titleImg{
@@ -73,37 +72,28 @@ body{
     display: flex;
     justify-content: center;
     font-size: 60px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
 
 }
 .subtitleImg{
     display: flex;
     justify-content: center;
     margin-top: 2%;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    
-
 }
 .pClassImg{
     display: flex;
     justify-content: center;
     margin-top: 2%;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20.6px;
 
 }
  .btns{
     background-color: deeppink;
     text-decoration: none;
-    color: white;
     padding: 10px 20px;
     border-radius: 15px;
  }
 
- .btnsContainer{
+ .backImg .btnsContainer{
     margin-top: 1%;
     display: flex;
     justify-content: center;
@@ -116,12 +106,29 @@ body{
 
 .Profile{
     display: flex;
-    flex-direction: column;
     background-color: #333;
 }
 
-.textProfile, .teamDesc{
-    flex-wrap: wrap;
+.textProfile{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.teamCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+}
+
+.cardContainer{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
     width: 50%;
 }
 
@@ -129,4 +136,19 @@ body{
     width: 80px;
     height: 80px;
     border-radius: 50%;
+}
+
+.teamTxt{
+    display: inline;
+    width: 500px;
+    margin-left: 15px;
+}
+
+.teamDesc, .textProfile{
+    padding: 50px;
+}
+
+
+.descHeader{
+    font-size: 30px;
 }
