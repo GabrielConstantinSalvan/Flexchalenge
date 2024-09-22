@@ -15,11 +15,10 @@ body{
     background-image: url("medias/img/desafio-image.jpeg");
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 700px;
     justify-content: center;
     align-items: center;
-    
-    
+
 }
 .cabecalho{
     background-color: #333;
@@ -95,7 +94,7 @@ body{
  }
 
 .btns:hover, .buttonNavHome:hover{
-    background-color: rgb(209, 33, 127);
+    background-color: rgb(188, 31, 115);
 }
 
 .buttonNav:hover{
