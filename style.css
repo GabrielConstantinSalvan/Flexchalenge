@@ -147,3 +147,96 @@ body{
 .descHeader{
     font-size: 30px;
 }
+
+
+/* GUILHERME */
+
+.container {
+    text-align: center;
+}
+ 
+.pa {
+    display: flex;
+    justify-content: center;
+ 
+    /* Espaçamento entre as palavras */
+    text-align: center;
+ 
+}
+ 
+.imagens{
+    display: flex;
+    gap: 60px;
+}
+ 
+.p3{
+    text-align: center;
+    border-radius: 10%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 50px;
+}
+.p5{
+    color: black;
+    background-color: #aeaeae85;
+    padding: 8px 15px;
+}
+.p1{
+    text-align: center;
+    display: block;
+    color: black;
+    padding-top: 50px;
+}
+.you{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    gap: 20px;
+}
+ 
+/* JEAN */
+.main {
+    display: flex;
+}
+ 
+.rodape {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    padding: 40px;
+}
+ 
+.nome input {
+    margin: 5px;
+    width: 500px;
+    height: 30px;
+ 
+}
+ 
+.email input {
+    margin: 5px;
+    width: 500px;
+    height: 30px;
+ 
+}
+ 
+.mensagem textarea {
+    margin: 5px;
+    margin-bottom:17px ;
+ 
+}
+ 
+.botaoJ {
+    border-radius: 4px;
+    background-color: deeppink;
+    color: white;
+    text-decoration: none;
+    padding: 10px 230px;
+ 
+}
+ 
+.botaoJ:hover {
+    background-color: rgb(209, 33, 127);
+}
